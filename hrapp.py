@@ -27,7 +27,10 @@ pdf_mapping = {
 
 
 # Load environment variables
-load_dotenv()
+#load_dotenv()
+
+os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
+
 
 
 # Main Streamlit app
