@@ -2,7 +2,7 @@ langchain==0.0.316
 openai==0.28.1
 PyPDF2==3.0.1
 python-dotenv==1.0.0
-streamlit==1.18.1
+streamlit
 faiss-cpu==1.7.4
 altair<5
 tiktoken
