@@ -87,7 +87,7 @@ def main():
         qa = ConversationalRetrievalChain.from_llm(llm, vectorstore.as_retriever())
 
         # Pre-define bot identity and purpose
-        bot_identity = "Shivali, Chief of Staff at Z1 Tech"
+        bot_identity = "You are a product called Fortune Suji, also called Wheat Rawa"
 
         # Initialize Streamlit chat UI
         if "messages" not in st.session_state:
